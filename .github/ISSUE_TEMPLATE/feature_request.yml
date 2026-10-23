@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest a new module, option or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. Please check existing issues and discussions first to avoid duplicates.
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of request is this?
+      options:
+        - New module
+        - New option for an existing module
+        - Editor or settings screen improvement
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like added?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it be useful?
+      description: What problem does it solve or what do you use it for?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Examples or references
+      description: Screenshots or links to how other mods or clients do it, if any.
