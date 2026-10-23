@@ -1,0 +1,66 @@
+name: Bug report
+description: Something in LiteHUD is broken or behaves wrong
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The more detail you give, the faster it can be fixed.
+        For ideas and feature requests, please use Discussions instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the HUD editor
+        2. Move the tab list
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft version
+      placeholder: "1.21.11"
+    validations:
+      required: true
+  - type: input
+    id: litehud-version
+    attributes:
+      label: LiteHUD version
+      placeholder: "1.0+1.21.11"
+    validations:
+      required: true
+  - type: input
+    id: loader
+    attributes:
+      label: Fabric Loader and Fabric API version
+      placeholder: "Loader 0.19.5, Fabric API 0.141.6"
+  - type: input
+    id: server
+    attributes:
+      label: Server (if it only happens on a server)
+      placeholder: "singleplayer, or the server address"
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods installed
+      description: Especially rendering or HUD mods (Sodium, VulkanMod, Iris, other HUD mods and so on).
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log or crash report
+      description: Paste `latest.log` or the crash report here, or attach the file. For long logs use a paste site and link it.
+      render: shell
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here if they help show the problem.
