@@ -6,9 +6,9 @@ Lightweight, highly customizable HUD mod built for displaying and managing essen
 
 This repository is made for **bug reports and suggestions**.
 
-Found a bug?: [New issue](../../issues/new/choose). 
+Found a bug?: [here](../../issues/new/choose). 
 
-Have a feature suggestion or an improvement idea?: [Discussions](../../discussions/categories/ideas)
+Have a feature suggestion or an improvement idea?: [here](../../discussions/categories/ideas)
 
 ## Mod Requirements
 
