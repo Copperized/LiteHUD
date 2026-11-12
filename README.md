@@ -1,21 +1,15 @@
 # LiteHUD
 
-A lightweight, fully customizable all-in-one HUD mod for Minecraft (Fabric, client-side).
+Lightweight, highly customizable HUD mod built for displaying and managing essential in-game information.
 
-This repository is the public home for **bug reports, suggestions and discussions**. The mod's source code is not published here.
+**Download LiteHUD:** [here](https://modrinth.com/project/litehud)
 
-**Download:** [here](https://modrinth.com/project/litehud)
+This repository is made for **bug reports and suggestions**.
 
-## Bugs
+Found a bug?: [New issue](../../issues/new/choose). 
+Have a feature suggestion or an improvement idea?: [Discussions](../../discussions)
 
-Open an issue using the **Bug report** template: [New issue](../../issues/new/choose). 
-Please include your Minecraft version and other installed mods.
-
-## Ideas and suggestions
-
-Post them in [Discussions](../../discussions), or use the **Feature request** template. Check first that nobody has asked for the same thing.
-
-## Requirements
+## Mod Requirements
 
 - Fabric Loader
 - Fabric API
